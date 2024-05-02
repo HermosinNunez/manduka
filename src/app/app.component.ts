@@ -6,13 +6,9 @@ import { CalendarioComponent } from './calendario/calendario.component';
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [
-    RouterOutlet,
-     FormularioComponent,
-      CalendarioComponent
-  ],
+  imports: [RouterOutlet, FormularioComponent, CalendarioComponent],
   templateUrl: './app.component.html',
-  styleUrl: './app.component.scss'
+  styleUrl: './app.component.scss',
 })
 export class AppComponent {
   title = 'Manduka';
